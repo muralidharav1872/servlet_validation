@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<fieldset style="width:400px ;">
+        <legend>Registration</legend>
+        <form action="">
+            <table>
+                <tr>
+                    <td><label for="first">FIRSTNAME:</label></td>
+                    <td><input type="text" name="first" id="first"></td>
+                </tr>
+                <tr>
+                    <td><label for="last">LASTNAME:</label></td>
+                    <td><input type="text" name="last" id="last"></td>
+                </tr>
+                <tr>
+                    <td><label for="pswd">PASSWORD:</label></td>
+                    <td><input type="password" name="pswd" id="pswd"></td>
+                </tr>
+                <tr>
+                    <td><label for="gen">GENDER:</label></td>
+                    <td><input type="radio" name="gen" id="gen">Male <input type="radio" name="gen" id="gen">Female</td>
+                </tr>
+                <tr>
+                    <td><label for="dob">DOB:</label></td>
+                    <td><input type="date" name="dob" id="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="addr">ADDRESS:</label></td>
+                    <td><textarea name="addr" id="addr" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="email">EMAIL ID:</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="quali">QUALIFICATION:</label></td>
+                    <td><input type="checkbox" name="quali" id="quali">BE/B.Tech <input type="checkbox" name="quali" id="quali">ME/M.Tech</td>
+                </tr>
+                <!-- DropDown -->
+                <tr>
+                    <td><label for="state">STATE</label></td>
+                    <td><select name="state" id="state">
+                        <option value="kannada">KARNATAKA</option>
+                        <option value="tamil">TAMILNADU</option>
+                        <option value="hindi">MUMBAI</option>
+                        <option value="telgu">ANDRAPRADESH</option>
+                    </select></td>
+                </tr>
+                <td><input type="submit" value="SUBMIT"></td>
+                <td> <input type="button" value="CANCEL"></td>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
